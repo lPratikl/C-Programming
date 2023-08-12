@@ -1,22 +1,25 @@
+// 4. Loop Control Statements 
+
 #include<stdio.h>
 
 int main() {
 // Find the sum of the first n Nautral number & print in reverse. 
     // int i, j;
-    // int sum;
-    // int num;
+    // int sum, num;
     // printf("Enter a number: ");
     // scanf("%d", &num);
+    
     // for(i=1, j=num; i<=num && j>=1; i++, j--) {
     //     sum += i;
     //     printf("%d \t", j); 
     // }
+    
     // printf("\n");
     // printf("Sum = %d", sum);
 
 
 //..............................................................................
-//Print the table of a number in reverse. 
+//Print the multiplication table of a number in reverse. 
     // int i, num;
     // printf("Enter a number: ");
     // scanf("%d", &num);
@@ -92,7 +95,7 @@ int main() {
 // Check if a number is prime or not. 
     // int n;
     // int count = 0;
-    // printf("Enter a prime number: ");
+    // printf("Enter a number: ");
     // scanf("%d", &n);
 
     // for (int i=1; i<=n; i++) {                  // Find the number of factors.  
@@ -112,7 +115,6 @@ int main() {
 //.......................................................................................
 // Print prime nubmer in a range. 
     int i, prime, n1, n2, j;
-    int count = 0;
     printf("Enter first number: ");
     scanf("%d", &n1);
     printf("Enter second number: ");
@@ -121,11 +123,11 @@ int main() {
     if (n1 >= 2) {
         printf ("Prime numbers are: ");
         
-        for (j = n1+1; j < n2; j++) {
-            prime = 1;
-            for (i = 2; i < j/2; i++) {
-                if (j % i == 0) {
-                    prime = 0;
+        for (j = n1+1; j < n2; j++) {             // Start from the n1+1
+            prime = 1;                            // Prime numbers only have 2 factors e..g 1x11=11
+            for (i = 2; i < j/2; i++) {           // Factor of Non Prime number (n) include numbers between 2 to n/2.
+                if (j % i == 0) {                 // e.g. 6 = 2x3, 24 = 4x6, 99 = 3x33
+                    prime = 0;                    // If there is a factor between 2 to n/2, it's not a prime number. 
                     break;
                 }
             }
@@ -133,11 +135,10 @@ int main() {
             if (prime) {
                 printf("%d \t", j);
             }
-        }
+         }
         } else {
         printf("Enter a number greater than 1");
     }
-
 
     return 0;
 }
