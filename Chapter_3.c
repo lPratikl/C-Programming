@@ -1,3 +1,5 @@
+// 3. Conditional Statements
+
 #include<stdio.h>
 #include<math.h>
 
@@ -19,6 +21,7 @@ int main() {
 
 // marks >30 && marks <=100 ? printf("PASS \n") : printf("FAIL \n");
 
+    
 //.......................................................................................
 // Program to give grades to a student 
     // int marks;
@@ -41,6 +44,7 @@ int main() {
     //     printf("Out of Range \n");
     // }
 
+    
 //......................................................................................
 // Program to find if a character is upper case or not
     // char ch;
@@ -57,6 +61,7 @@ int main() {
     //     printf("Invalid \n");
     // }
 
+    
 //.....................................................................................
 // Program to check if a number is Armstrong number.
 // Link: https://www.programiz.com/c-programming/examples/check-armstrong-number
