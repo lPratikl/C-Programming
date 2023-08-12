@@ -1,8 +1,9 @@
+// 2. Instructions & Operators 
+
 #include<stdio.h>
 #include<math.h>
 
 int main() {
-
 //Program to print the average of 3 numbers 
     // int a,b,c; 
     // printf("Enter 3 numbers: ");
@@ -11,6 +12,7 @@ int main() {
     // scanf("%d", &c);
     // printf("Average = %d", (a+b+c)/3 );
 
+    
 //....................................................................................
 //Program to check if the charcter is digit or not 
 //     char ch;
@@ -23,6 +25,7 @@ int main() {
 //         printf("%c is not digit", ch);
 //     }
 
+    
 //......................................................................................
 // Program to print the smallest number 
    int num1, num2;
