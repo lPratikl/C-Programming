@@ -1,6 +1,7 @@
 // Project name: Tic-Tac-Toe 
 // Difficulty: Intermediate 
-// Source 
+// Credit: mishal23, https://www.interviewbit.com/blog/c-projects/
+// Source: https://github.com/mishal23/Tic-Tac-Toe
 
 
 #include <stdio.h>
