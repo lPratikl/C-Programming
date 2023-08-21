@@ -1,6 +1,8 @@
-// Name: Tic Tac Toe Game 
+// Project Name: Tic Tac Toe Full Game 
 // Difficulty: Intermediate -> Adavanced
+// Two Player, Computer vs Player, Leaderboards 
 // LOC: ~400 lines   
+
 
 #include <stdio.h>
 #include <string.h>
