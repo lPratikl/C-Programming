@@ -6,7 +6,7 @@
 #include <string.h>
 #include <conio.h>              // For getch();
 
-char ch[10][130] = {"OMG 2", "Gadar 2", "Titanic", "Barbie", "Oppenheimer"};
+char ch[10][130] = {"OMG 2", "Gadar 2", "Titanic", "Barbie", "Oppenheimer"};  // Names of movies available 
 char name[32][100] ={'\0'};     // store up to 32 names with 100 character
 char number[32][3] = {'\0'};    // Strore up ot 32 seats with 2 numbers
 int num1[32]={0}; 
