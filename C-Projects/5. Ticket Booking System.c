@@ -1,6 +1,7 @@
 // Movie Ticket Booking System 
 // Dificulty: Advanced
-// Source: Bus Reservation Systme -> https://download.code-projects.org/details/2b6b6048-8b90-482b-8b65-468c0d76fc0a
+// Source: Bus Reservation Systme --> https://download.code-projects.org/details/2b6b6048-8b90-482b-8b65-468c0d76fc0a
+// Exciting C Projects Ideas With Source Code --> https://www.interviewbit.com/blog/c-projects/
 
 #include <stdio.h>
 #include <stdlib.h>
